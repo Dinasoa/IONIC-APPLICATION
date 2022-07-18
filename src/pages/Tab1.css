@@ -1,0 +1,120 @@
+.cardBox{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    height: 50%;
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    border-radius: 20px;
+    background-color: rgb(240, 237, 236);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px 8px #d6be90;
+    
+
+}
+.cardBox{
+    margin-top: 50px;
+}
+
+.cardBox h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(219, 193, 45, 0.822);
+}
+
+.cardBox a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+.cardBox a:hover{
+    font-weight: bolder;
+}
+.scroll{
+    overflow-y: scroll;
+}
+
+.spin{
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    height: 20%;
+    width: 20%;
+}
+.spin * {
+    height: 20% !important;
+    width: 20% !important;
+}
+
+
+.cardBox{
+    text-align: center;
+}
+
+.logo{
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: 10px;
+    width: 50%; 
+    background-color: rgba(204, 140, 21, 0.747);
+}
+
+.button button:hover{
+    background-color: rgba(204, 140, 21, 0.747);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px 8px #d6be90;   
+}
+
+.titre{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+.wait{
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 52%;
+    top: 45%;
+    height: 20%;
+    width: 30%;
+}
+
+.cardBox p span{
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+    .cardBox{
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width : 300px){
+    .cardBox{
+        height: 75vh;
+    }
+}
